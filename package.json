@@ -9,10 +9,9 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "rm -rf ./public/* && build-storybook -c .storybook -o public --quiet -s ./src/assets/fonts,./src/assets/images",
-    "build":"echo",
+    "build": "echo",
     "test-eslint": "eslint .storybook/main.js --no-ignore",
     "now-build": "mkdir ./public && npm run build-storybook --quiet",
-    "build": "echo",
     "copy-css:cjs": "rsync -a --prune-empty-dirs --include '*/' --include '*.scss' --exclude '*' src/ui/ dist/cjs/",
     "copy-css:es": "rsync -a --prune-empty-dirs --include '*/' --include '*.scss' --exclude '*' src/ui/ dist/es/",
     "compile:cjs": "NODE_ENV=cjs babel src/ui --out-dir dist/cjs --ignore **/storie*/*.js",
@@ -30,6 +29,7 @@
   "keywords": [],
   "license": "ISC",
   "dependencies": {
+    "apollo-boost": "^0.4.7",
     "stylelint": "^13.0.0",
     "stylelint-config-palantir": "^4.0.1",
     "stylelint-scss": "^3.13.0"
