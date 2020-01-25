@@ -30,6 +30,7 @@
   "license": "ISC",
   "dependencies": {
     "apollo-boost": "^0.4.7",
+    "graphql": "^14.5.8",
     "stylelint": "^13.0.0",
     "stylelint-config-palantir": "^4.0.1",
     "stylelint-scss": "^3.13.0"
