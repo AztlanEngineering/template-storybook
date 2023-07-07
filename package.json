@@ -31,7 +31,7 @@
   "dependencies": {
     "apollo-boost": "^0.4.7",
     "graphql": "^14.6.0",
-    "stylelint": "^13.0.0",
+    "stylelint": "^15.10.1",
     "stylelint-config-palantir": "^4.0.1",
     "stylelint-scss": "^3.14.2"
   },
